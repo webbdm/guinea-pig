@@ -10,7 +10,7 @@ var rounded = document.getElementById('add-rounding');
 
 function clickySections(event){
   var target = event.target.innerHTML;
-  output.innerHTML = "You clicked the " + target + " section.";
+  output.innerHTML = "You clicked the " + target + " section";
 };
 
 function headerMouse(){

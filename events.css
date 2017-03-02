@@ -13,6 +13,11 @@ h1{
   margin: 22px 5px 0px 5px;
   -webkit-text-stroke: 1px navy;
 }
+article{
+
+  padding-bottom: 10px;
+
+}
 
 section{
   display: inline;
@@ -29,7 +34,7 @@ section{
   border-radius: 200px;
   border: 5px solid navy;
   text-align: center;
-  padding: 0px;
+  padding-top: 20px;
 }
 
 .buttonBox{
