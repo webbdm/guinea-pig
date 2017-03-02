@@ -1,0 +1,82 @@
+body{
+  background: url("http://animalwall.xyz/wp-content/uploads/2016/01/rodents-guinea-pig-flowers-animals-cute-desktop-wallpapers.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+*{margin: 0px;}
+
+h1{
+  text-align: center;
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 95px;
+  color: #E6E32D;
+  margin: 22px 5px 0px 5px;
+  -webkit-text-stroke: 1px navy;
+}
+
+section{
+  display: inline;
+  font-family: calibri;
+  font-size: 17px;
+}
+
+.pigBox{
+  height: 220px;
+  width: 450px;
+  background-color: rgba(36, 122, 208, 0.70);
+  margin: 0 auto;
+  margin-top: 15px;
+  border-radius: 200px;
+  border: 5px solid navy;
+  text-align: center;
+  padding: 0px;
+}
+
+.buttonBox{
+  
+}
+
+.pigButton {
+  margin: 5px;
+  background-color:navy;
+  border-color: navy;
+  border-radius: 5px;
+  font-family: calibri;
+  color: #E6E32D;
+  text-transform: uppercase;
+}
+.pigButton:hover {
+  background-color:transparent;
+}
+.pigButton:active {
+  position:relative;
+  top:1px;
+}
+
+.g-pig{
+  margin: 20px 40px 20px 40px;
+  font-family: 'Luckiest Guy', cursive;
+}
+
+.output{
+  margin-top: 7px;
+  color: #E6E32D;
+  font-family: calibri;
+  text-transform: uppercase;
+}
+
+.blue{
+  color: blue;
+}
+
+.large{
+  font-size: 40px;
+}
+
+.borderCapture{
+  border: 1px dashed yellow;
+}
+
+.borderRound{
+  border-radius: 10px;
+}
