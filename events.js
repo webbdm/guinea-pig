@@ -4,7 +4,7 @@ var header = document.getElementById('page-title');
 var input = document.getElementById('keypress-input');
 var pig = document.getElementById('guinea-pig');
 var addColor = document.getElementById('add-color');
-var makeLarge = document.getElementById('make-large');
+var makeLarger = document.getElementById('make-large');
 var capture = document.getElementById('add-border');
 var rounded = document.getElementById('add-rounding');
 
@@ -50,6 +50,6 @@ header.addEventListener('mouseenter', headerMouse);
 header.addEventListener('mouseleave', mouseLeave);
 input.addEventListener('keypress',keyPress);
 addColor.addEventListener('click',pigColor);
-makeLarge.addEventListener('click',makeLarge);
+makeLarger.addEventListener('click',makeLarge);
 capture.addEventListener("click", borderCapture);
 rounded.addEventListener("click", borderRound);
